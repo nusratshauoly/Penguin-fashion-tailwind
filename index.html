@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Penguin Fashion</title>
+      <!-- step-1: tailwind css link -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!--step-2: tailwind css customize -->
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin: '#FFFBF0',
+              }
+            }
+          }
+        }
+      </script>
+    </head>
+    <body>
+      <!-- header part start -->
+      <header class="bg-penguin pb-32 pt-12">
+        <section class="container sm:flex items-center justify-between mx-auto">
+      <!-- logo and navigation part  -->
+          <div>
+            <img class="w-72 h-10" src="./images/logo.png" alt="">
+          </div>
+          <div >
+            <nav clas="flex flex-wrap">
+              <ul class="flex space-x-12 p-3">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+       
+      
+        
+        </section>
+        <!-- Introduction part -->
+        <section></section>
+      </header>
+          
+    </body>
+</html>
